@@ -1,0 +1,95 @@
+@font-face{
+    font-family: Moonllime;
+    src: url('Moonllime.ttf');
+}
+body, html{
+    background-image: url('_img/roxo.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+
+#div1{
+    border: solid rgb(120, 0, 186);
+    width: 370px;
+    height: 410px;
+    position: absolute;
+    border-radius: 1.5cm;
+    float:center;
+    margin: 0 auto;
+    background: rgb( 255, 255, 255);
+    top: calc(50% - 205px);
+    left: calc(50% - 185px);
+    text-align: center;
+    font-family: Moonllime;
+}
+
+#div2{
+    order: solid rgb(120, 0, 186);
+    width: 370px;
+    height: 600px;
+    position: absolute;
+    border-radius: 1.5cm;
+    float:center;
+    /*top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -190px;*/
+    margin: 0 auto;
+    top: calc(50% - 300px);
+    left: calc(50% - 185px);
+    background: rgb( 255, 255, 255);
+    text-align: center;
+    font-family: Moonllime;
+}
+
+.user{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    border-width: 0.05cm;
+    border-radius: 0.15cm;
+    border-color: rgb(120, 0, 186);
+}
+#button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-width: 0.05cm;
+    border-radius: 0.2cm;
+    border-color: rgb(120, 0, 186);
+    background-color: rgb( 255, 255, 255);
+    font-family: Moonllime;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+#button:hover{
+    background-color: darkviolet;
+    font: snow;
+}
+#img{
+    position: relative;
+    width:200px;
+    height: 200px;
+}
+#ainda{
+    position: relative;
+    margin-top: 50px;
+    font-size: 22px;
+    text-decoration: none;
+}
+#ainda:hover{
+    font-size:25px;
+}
+#idade{
+    font-family: Arial, Helvetica, sans-serif;
+    font: (192,192,192);
+    width: 130px;
+}
+.label{
+    font-size: 25px;   
+}
+
+
+ 
